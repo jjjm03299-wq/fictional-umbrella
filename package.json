@@ -1,0 +1,33 @@
+{
+  "name": "gradle-tool",
+  "version": "1.0.0",
+  "description": "Node.js CLI wrapper for Gradle using child_process.spawn",
+  "main": "gradle.js",
+  "bin": {
+    "gradle-tool": "./gradle.js"
+  },
+  "scripts": {
+    "start": "node gradle.js",
+    "test": "node gradle.js --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjjm03299-wq/fictional-umbrella.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jjjm03299-wq/fictional-umbrella/issues"
+  },
+  "homepage": "https://github.com/jjjm03299-wq/fictional-umbrella#readme",
+  "keywords": [
+    "gradle",
+    "cli",
+    "java",
+    "build",
+    "android"
+  ],
+  "author": "jjjm03299-wq",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  }
+}
